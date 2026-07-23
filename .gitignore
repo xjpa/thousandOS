@@ -1,0 +1,19 @@
+# generated disk contents; retain the directory itself
+/disk/*
+!/disk/.gitkeep
+
+# build artifacts
+*.o
+*.elf
+*.bin
+*.map
+
+# generated captures, archives, and logs
+*.pcap
+*.tar
+*.log
+
+# emacs bullshit
+*~
+\#*\#
+.\#*
